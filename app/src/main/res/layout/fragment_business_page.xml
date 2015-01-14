@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA7F4FF">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/profile_name"
+        android:text="איציק חתולים"
+        android:gravity="center"
+        android:background="#33B5E5"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="הוסף לרחוב שלי!"
+        android:id="@+id/addToStreetBtn"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_picture"
+        android:src="@drawable/cat"
+        android:layout_marginLeft="30dp" />
+
+
+
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <android.support.v4.view.PagerTitleStrip
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_business"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:layout_gravity = "top"
+            android:background="#33B5E5"
+            >
+
+
+            </android.support.v4.view.PagerTitleStrip>
+
+
+    </android.support.v4.view.ViewPager>
+
+
+
+    />
+
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="סינון:"
+        android:id="@+id/filter_title"
+        android:layout_marginTop="20dp"
+        android:gravity="right"
+        android:textSize="30dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="הכל"
+        android:id="@+id/all_checkBox"
+        android:gravity="right"
+        android:layout_gravity="left"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="מסעדות"
+        android:id="@+id/resturant_checkBox"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="אטרקציות ופנאי"
+        android:id="@+id/atraction_checkbox"
+        android:checked="false"
+        android:gravity="right" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="טיפוח וספא"
+        android:id="@+id/beauty_checkbox"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="בריאות וכושר"
+        android:id="@+id/health_checkbox"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="אנשי מקצוע"
+        android:id="@+id/professional_checkbox"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="כלי רכב"
+        android:id="@+id/vehicle_checkbox"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="קניות"
+        android:id="@+id/shopping_checkbox"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="בחר את המרחק הרצוי לסינון:"
+        android:id="@+id/distance_tilte"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textSize="15dp" />
+
+    <SeekBar
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_marginTop="15dp"
+        android:indeterminate="false"
+        android:progressTint="#872f3049"
+        android:layout_gravity="center_horizontal"
+        android:max="500" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ק&quot;מ"
+        android:id="@+id/km_title"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="סנן"
+        android:id="@+id/filter_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

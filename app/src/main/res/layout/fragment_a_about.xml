@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA7F4FF">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="פרטי בית עסק:"
+        android:id="@+id/about_title"
+        android:gravity="center"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="טלפון:"
+        android:id="@+id/phone_business"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:gravity="right" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="כתובת:"
+        android:id="@+id/address_business"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:gravity="right" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="כתובת אתר:"
+        android:id="@+id/business_website"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:gravity="right" />
+</LinearLayout>
